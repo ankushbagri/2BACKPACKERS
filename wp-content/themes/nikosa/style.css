@@ -1,0 +1,116 @@
+/*
+Theme Name: Nikosa
+Theme URI: https://champthemes.com/wordpress-themes/nikosa-wordpress-theme/
+Author: ChampThemes
+Author URI: https://champthemes.com
+Description: Nikosa is a very high quality, neat and clean, professionally developed WordPress theme for startups, small and medium sized organizations. Nikosa was developed primarily for riding tours for motor bike or cycling enthusiasts but can be easily modified to be used in any niche. Nikosa is twitter bootstrap based hence it is fully mobile responsive and looks amazing in mobiles, ipads and other small and big screens. Nikosa is SEO friendly and is fully customizable through customizer options. Unlimited color combinations can be made, logo can be changed, social media URLs can be added etc through customizer settings. Step by Step installation and setup-like-demo tutorial along with dummy data files is available here: https://champthemes.com/documentation/nikosa/
+Version: 1.7
+Tags: two-columns, right-sidebar, custom-background, custom-colors, custom-menu, custom-logo, featured-images, theme-options, blog, translation-ready
+License: GNU GENERAL PUBLIC LICENSE, Version 3
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: nikosa
+*/
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 98.5%;
+    /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+.wp-caption p.wp-caption-text {
+    font-size: 12px;
+    line-height: 17px;
+    margin: 0;
+    text-align: center;
+    padding: 10px 4px 0px;
+}
+.wp-caption a {
+    color: #fff;
+}
+.wp-caption,
+.gallery {
+    margin-bottom: 1.6842em;
+}
+iframe,
+embed {
+    max-width: 100%;
+}
+.sticky .entry-date {
+    display: none;
+}
+.gallery-caption {
+    padding: 6px 8px;
+}
+.gallery-item:hover .gallery-caption {
+    opacity: 1;
+}
+.gallery-columns-7 .gallery-caption,
+.gallery-columns-8 .gallery-caption,
+.gallery-columns-9 .gallery-caption {
+    display: none;
+}
+.bypostauthor {}
+/* Text meant only for screen readers. */
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+}
+.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.alignright {
+    display: inline;
+    float: right;
+}
+.single-blog-social a[rel~='nofollow'] {
+    outline: 0em dotted transperant !important;
+    outline-offset: 0em;
+}
+img {width: auto;max-width: 100%;}
+.tagcloud a {
+    padding: 5px;
+    border: 1px solid #14213D;
+    margin: 5px 5px 5px 0;
+    border-radius: 2px;
+}
+.content{
+    width: 78%;
+    display: inline-block;
+    font-size: 14px;
+    vertical-align: top;
+}
+.content a:first-child{
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.content a{font-size: 14px;}
+.thumbnails {
+    width: 20%;
+    display: inline-block;
+}
+.thumbnails img{vertical-align: baseline;}
+iframe .brand-text {
+    position: relative;
+}
